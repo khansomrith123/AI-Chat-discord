@@ -70,8 +70,33 @@ SMOS GANG AI/
    Open `.env` file and fill in your credentials:
 
    ```env
-   DISCORD_TOKEN=your_discord_bot_token_here
-   OPENAI_API_KEY=your_openai_api_key_here
+# Copy the values below to .env and fill in your actual credentials
+
+# Discord Bot Token (Get from https://discord.com/developers/applications)
+DISCORD_TOKEN=your_discord_bot_token_here
+
+# OpenAI API Key (Get from https://platform.openai.com/api-keys)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Bot Configuration
+BOT_PREFIX=!
+BOT_NAME=SMOS GANG AI
+BOT_COLOR=#5865F2
+
+# AI Configuration
+AI_MODEL=gpt-3.5-turbo
+AI_MAX_TOKENS=500
+AI_TEMPERATURE=0.7
+
+# Cooldown Configuration (in milliseconds)
+COOLDOWN_TIME=3000
+
+# Server ID (Optional - for single server bots)
+GUILD_ID=
+
+# Discord Webhook for Logs/Commands
+WEBHOOK_URL=
+
    ```
 
 4. **Get your Discord Bot Token:**
