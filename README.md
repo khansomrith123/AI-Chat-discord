@@ -69,30 +69,26 @@ SMOS GANG AI/
 
    Open `.env` file and fill in your credentials:
 
-   ``` 
-Copy the values below to .env and fill in your actual credentials
-DISCORD_TOKEN=your_discord_bot_token_here
+   ```env
+   DISCORD_TOKEN=your_discord_bot_token_here
 
-# Server ID (Optional - for single server bots)
-GUILD_ID=
+   OpenAI API Key (Get from https://platform.openai.com/api-keys)
+   OPENAI_API_KEY=your_openai_api_key_here
+   
+   BOT_PREFIX=!
+   BOT_NAME=SMOS GANG AI
+   BOT_COLOR=#5865F2
 
-# Discord Webhook for Logs/Commands
-WEBHOOK_URL=
+   AI_MODEL=gpt-3.5-turbo
+   AI_MAX_TOKENS=500
+   AI_TEMPERATURE=0.7
 
-# OpenAI API Key (Get from https://platform.openai.com/api-keys)
-OPENAI_API_KEY=your_openai_api_key_here
-BOT_PREFIX=!
-BOT_NAME=SMOS GANG AI
-BOT_COLOR=#5865F2
-AI Configuration
-AI_MODEL=gpt-3.5-turbo
-AI_MAX_TOKENS=500
-AI_TEMPERATURE=0.7
-COOLDOWN_TIME=3000
+   COOLDOWN_TIME=3000
 
-# Server ID (Optional - for single server bots)
-GUILD_ID=
+   GUILD_ID=
 
+   Discord Webhook for Logs/Commands
+   WEBHOOK_URL=
    ```
 
 4. **Get your Discord Bot Token:**
@@ -204,9 +200,10 @@ MIT License - Feel free to use and modify!
 
 For issues and questions:
 
-- Create an issue on GitHub
-- Join our Discord server
+- [Create an issue on GitHub](https://github.com/khansomrith123/AI-Chat-discord)
+- [Join our Discord server](https://discord.gg/Eed7EX3eYG)
 
 ---
 
 Made with ❤️ by **SMOS GANG**
+
